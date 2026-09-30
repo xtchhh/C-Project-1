@@ -9,11 +9,9 @@ float SalaryCalculator()
 	cout << "Please enter your salary: ";
 	cin >> salary;
 
-	/*
 	cout.setf(ios::fixed);
 	cout.setf(ios::showpoint);
 	cout.precision(2);
-	*/
 
 	float tax = salary * (taxRate / 100);
 	float newSalary = salary + tax;
