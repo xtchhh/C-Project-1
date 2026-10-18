@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <vector>
 
 using namespace std;
 
@@ -48,8 +47,6 @@ float SalaryCalculator(int salary)
 int main()
 {
 	SalaryCalculator(StringToInt());
-
-	return 0;
 }
 
 
