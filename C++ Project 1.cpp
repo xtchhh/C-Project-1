@@ -35,7 +35,7 @@ float SalaryCalculator(int salary)
 	float monthlySalary = newSalary / 12;
 	float retroactivePay = (newSalary - salary) / 2;
 
-	cout << "Your old salary was: $" << salary << endl;
+	cout << "Your old annual salary was: $" << salary << endl;
 	cout << "Your new annual salary is: $" << newSalary << endl;
 	cout << "Your new monthly pay is: $" << monthlySalary << endl;
 	cout << "Your new retroactive pay after 6 months is: $" << retroactivePay << endl;
